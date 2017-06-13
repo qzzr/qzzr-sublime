@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+transition event="${1:next}" target="${2:target}" ${3:cond="${4:true}"} >
+  ${5:<assign location="${6:location}" expr="${7:expr}" />}
+</transition>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>transition</tabTrigger>
+  <description>Transition</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>text.scxml</scope> -->
+</snippet>

@@ -1,0 +1,16 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: SCXML (Thot)
+scopeName: text.scxml
+fileTypes: ["scxml", "xml"]
+uuid: 8b9e41c8-3054-4848-a78a-61d23eab9034
+
+patterns:
+- comment: script block
+  name: source.js
+  begin: \s*?\<script\s?\w*?\>
+  end: \s*?\<\/script\>
+  patterns:
+  - include: source.babeljs
+- include: text.xml
+...

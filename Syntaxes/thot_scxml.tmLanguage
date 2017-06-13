@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>scxml</string>
+		<string>xml</string>
+	</array>
+	<key>name</key>
+	<string>SCXML (Thot)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>\s*?\&lt;script\s?\w*?\&gt;</string>
+			<key>comment</key>
+			<string>script block</string>
+			<key>end</key>
+			<string>\s*?\&lt;\/script\&gt;</string>
+			<key>name</key>
+			<string>source.js</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.babeljs</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>text.xml</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.scxml</string>
+	<key>uuid</key>
+	<string>8b9e41c8-3054-4848-a78a-61d23eab9034</string>
+</dict>
+</plist>

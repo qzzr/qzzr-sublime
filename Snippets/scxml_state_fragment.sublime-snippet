@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+state id="${1}">
+  ${2: <!-- Transistions -->}
+  <invoke type="http://thot.qzzr.com/#fragment">
+    <script jsx>
+      ${3}
+    </script>
+  </invoke>
+</state>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>state_fragment</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>text.scxml</scope> -->
+</snippet>
