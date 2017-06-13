@@ -8,5 +8,5 @@ transition event="${1:next}" target="${2:target}" ${3:cond="${4:true}"} >
   <tabTrigger>transition</tabTrigger>
   <description>Transition</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>text.scxml</scope> -->
+  <scope>text.scxml</scope>
 </snippet>

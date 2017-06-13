@@ -6,5 +6,5 @@ assign location="${1:location}" expr="${2:expr}" />
   <tabTrigger>assign</tabTrigger>
   <description>Assign variable</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>text.scxml</scope> -->
+  <scope>text.scxml</scope>
 </snippet>

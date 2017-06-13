@@ -13,5 +13,5 @@ state id="${1}">
   <tabTrigger>state_fragment</tabTrigger>
   <description></description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>text.scxml</scope> -->
+  <scope>text.scxml</scope>
 </snippet>
