@@ -1,16 +1,14 @@
 <snippet>
   <content><![CDATA[
-state id="${1}">
-  ${2: <!-- Transistions -->}
-  <fragment>
-    ${3: <!-- JSX -->}
-  </fragment>
-  </invoke>
-</state>
+onentry>
+  <script>
+    ${1: //- javascript}
+  </script>
+</onentry>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>state_fragment</tabTrigger>
-  <description>New state with a JSX fragment</description>
+  <tabTrigger>onentry</tabTrigger>
+  <description></description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.scxml</scope>
 </snippet>

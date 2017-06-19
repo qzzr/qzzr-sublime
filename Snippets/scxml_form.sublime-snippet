@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+qzzr-form
+  action="${1:eventName}"
+  behaviors={ ${2:[behaviors.submitOnSelect()]} }
+  key={ `\${${3:unique_key}}` }>
+  ${4: <!-- JSX -->}
+</qzzr-form>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>form</tabTrigger>
+  <description>Stub out a qzzr form</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.scxml</scope>
+</snippet>
