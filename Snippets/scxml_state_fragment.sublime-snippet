@@ -1,11 +1,10 @@
 <snippet>
   <content><![CDATA[
 state id="${1}">
-  ${2: <!-- Transistions -->}
+  ${2:<!-- Transistions -->}
   <fragment>
-    ${3: <!-- JSX -->}
+    ${3:<!-- JSX -->}
   </fragment>
-  </invoke>
 </state>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
