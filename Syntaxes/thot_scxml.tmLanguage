@@ -12,11 +12,11 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>\s*?\&lt;style(\s*+\w+=?"?)+\&gt;\{\`$</string>
+			<string>\X?\&lt;style(\s*+\w+=?"?)+\&gt;\X*?\{\`$</string>
 			<key>comment</key>
 			<string>style block</string>
 			<key>end</key>
-			<string>\s*?\&lt;\/style\&gt;</string>
+			<string>\X?\`\}\X*?\&lt;\/style\&gt;</string>
 			<key>name</key>
 			<string>source.css</string>
 			<key>patterns</key>
