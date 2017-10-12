@@ -5,15 +5,14 @@
 	<key>fileTypes</key>
 	<array>
 		<string>scxml</string>
-		<string>xml</string>
 	</array>
 	<key>name</key>
-	<string>SCXML (Thot)</string>
+	<string>THOT SCXML</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>\s*?\&lt;style(\s*+\w+=?"?)+\&gt;$</string>
+			<string>\s*?\&lt;style(\s*+\w+=?"?)+\&gt;\{\`$</string>
 			<key>comment</key>
 			<string>style block</string>
 			<key>end</key>
@@ -29,25 +28,8 @@
 			</array>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>\s*?\&lt;script\s?\w*?\&gt;</string>
-			<key>comment</key>
-			<string>script block</string>
-			<key>end</key>
-			<string>\s*?\&lt;\/script\&gt;</string>
-			<key>name</key>
-			<string>source.js</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>include</key>
-					<string>source.babeljs</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
 			<key>include</key>
-			<string>text.xml</string>
+			<string>source.babeljs</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
