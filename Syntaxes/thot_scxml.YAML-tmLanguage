@@ -8,8 +8,8 @@ uuid: 8b9e41c8-3054-4848-a78a-61d23eab9034
 patterns:
 - comment: style block
   name: source.css
-  begin: \s*?\<style(\s*+\w+=?"?)+\>\n?\s*?\{\`
-  end: \s*?\`\}\n?\s*?\<\/style\>
+  begin: \s*\<style(\s*+\w+=?"?)+\>\s*\{\`
+  end: \s*\`\}\s*\<\/style\>
   patterns:
   - include: source.css
 - include: source.babeljs
