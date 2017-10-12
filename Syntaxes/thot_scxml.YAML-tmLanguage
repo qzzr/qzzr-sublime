@@ -12,5 +12,5 @@ patterns:
   end: \X?\`\}\X*?\<\/style\>
   patterns:
   - include: source.css
-- include: source.babeljs
+- include: source.js
 ...
