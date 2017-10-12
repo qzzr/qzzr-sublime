@@ -29,7 +29,7 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>source.js</string>
+			<string>source.babeljs</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
