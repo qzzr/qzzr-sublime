@@ -2,7 +2,11 @@
   <content><![CDATA[
 onentry>
   <script>
-    ${1: //- javascript}
+  	{
+  		(datamodel, context) => {
+		    ${1: //- javascript}
+  		}
+  	}
   </script>
 </onentry>
 ]]></content>

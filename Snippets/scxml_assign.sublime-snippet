@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-assign location="${1:location}" expr="${2:expr}" />
+assign location="${1:location}" expr={ () => ${2:expr} } />
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>assign</tabTrigger>
