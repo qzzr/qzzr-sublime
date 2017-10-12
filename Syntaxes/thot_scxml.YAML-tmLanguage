@@ -9,7 +9,7 @@ patterns:
 - comment: style block
   name: source.css
   begin: \s*?\<style(\s*+\w+=?"?)+\>\{\`$
-  end: \s\`\}*?\<\/style\>
+  end: \s*?\`\}\<\/style\>
   patterns:
   - include: source.css
 - include: source.babeljs
